@@ -4,11 +4,11 @@ body{
   background-position:right top;
   font-family:Helvetica,Arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', ;
   color:#22483f;
-  font-size:40em;
+  font-size:1em;
 }
 /*normol*/
 h2{
-  font-size: 30em;
+  font-size: 2em;
 }
 a{
   color:#22483f;
@@ -30,5 +30,5 @@ a:hover{color:#007770;}
 }
 .foot{
   margin-top:300px;
-  font-size:50em;
+  font-size:0.6em;
 }
