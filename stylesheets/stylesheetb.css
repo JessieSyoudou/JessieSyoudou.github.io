@@ -1,14 +1,15 @@
 body{
+  width:800px;
   background:#f0fff0 url("../images/home/homepage_002.png");
   background-repeat:no-repeat;
   background-position:right top;
   font-family:Helvetica,Arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', ;
-  font-size:14em;
+  font-size:14px;
   color:#22483f;
 }
 /*normol*/
 h2{
-  font-size: 32em;
+  font-size: 32px;
 }
 a{
   color:#22483f;
@@ -30,5 +31,5 @@ a:hover{color:#007770;}
 }
 .foot{
   margin-top:300px;
-  font-size:5em;
+  font-size:5px;
 }
