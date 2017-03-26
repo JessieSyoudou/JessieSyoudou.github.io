@@ -2,31 +2,27 @@
 <html>
 <head>
   <meta charset='utf-8'>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <!--meta data-->
-  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  <!--bootsrap-->
-  <link href="stylesheets/shtylesheet.css" rel="stylesheet"
-  <!--[if lt IE 9]-->
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <!--[endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <link href="" rel="stylesheet" type="text/css" id="css" />
+  <script>
+    var w=window.screen.width;//先获取屏幕分辨率大小
+    var c;
+    if(w>=768){
+         c="stylesheets/stylesheeta.css";
+      }else{
+         c="stylesheets/stylesheetb.css";
+      }
+    document.getElementById("css").href=c;
+</script>
   <title>Welcome to Jessie's homepage</title>
 </head>
 <body>
-  <div class=".container">
-    <div class="row">
-      <div class="col-md-4 col-sm-4 col-lg-4">
+  <div class="content">
         <h2>Welcome to Jessie's home</h2>
-        <a href="#">Design</a><br/>
-        <a href="#">Advertising</a><br/>
-        <a href="#">Marketing</a><br/>
-        <a href="#">Learn more</a><br/>
-      </div>
-    </div>
+        <p class="homenav1"><a href="#">Design</a></p>
+        <p class="homenav"><a href="#">Advertising</a></p>
+        <p class="homenav"><a href="#">Marketing</a></p>
+        <p class="homenav"><a href="#">Learn more</a></p>
   </div>
 </body>
 </html>
