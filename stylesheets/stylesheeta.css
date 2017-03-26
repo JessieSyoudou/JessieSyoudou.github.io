@@ -1,4 +1,5 @@
 body{
+  width:100%;
   background:#f0fff0 url("../images/home/homepage_001.png");
   background-repeat:no-repeat;
   background-position:right top;
@@ -15,9 +16,9 @@ a{
 a:hover{color:#007770;}
 /*homepage*/
 .content{
-  width:60%;
+  width:100%;
   margin-top:65px;
-  margin-left:80px;
+  margin-left:50px;
 }
 .homenav1{
   height:auto;
