@@ -1,4 +1,5 @@
 body{
+  width:100%;
   background:#f0fff0 url("../images/home/homepage_002.png");
   background-repeat:no-repeat;
   background-position:right top;
@@ -8,7 +9,7 @@ body{
 }
 /*normol*/
 h2{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 a{
   color:#22483f;
@@ -17,18 +18,18 @@ a:hover{color:#007770;}
 /*homepage*/
 .content{
   width:60%;
-  padding-top:100px;
-  margin-left:50px;
+  padding-top:5%;
+  margin-left:2%;
 }
 .homenav1{
   height:auto;
-  margin-top: 100px;
+  margin-top: 5%auto;
 }
 .homenav{
   height:auto;
- margin-top: 10px;
+ margin-top: 2%;
 }
 .foot{
-  margin-top:200px;
+  margin-top:50%;
   font-size:0.6em;
 }
