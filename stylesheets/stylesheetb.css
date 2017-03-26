@@ -2,6 +2,22 @@ body{
   background:#f0fff0 url("../images/home/homepage_002.png");
   background-repeat:no-repeat;
   background-position:right top;
+  font-family:Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial,;
+  color:#22483f;
+}
+/*normol*/
+h2{
+  font-size: 24px;
+}
+a{
+  color:#22483f;
+}
+a:hover{color:#007770;}
+/*homepage*/
+.content{
+  width:60%;
+  margin-top:100px;
+  margin-left:50px;
 }
 .homenav1{
   height:auto;
@@ -10,4 +26,11 @@ body{
 .homenav{
   height:auto;
  margin-top: 10px;
+}
+.foot{
+  margin-top: 100px;
+  font-size: 9px;
+}
+.foot span{
+  padding:5px;
 }
