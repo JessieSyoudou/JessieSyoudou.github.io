@@ -7,7 +7,7 @@ body{
 }
 /*normol*/
 h2{
-  font-size: 24px;
+  font-size: 32px;
 }
 a{
   color:#22483f;
@@ -16,7 +16,7 @@ a:hover{color:#007770;}
 /*homepage*/
 .content{
   width:60%;
-  margin-top:100px;
+  padding-top:100px;
   margin-left:50px;
 }
 .homenav1{
@@ -28,8 +28,7 @@ a:hover{color:#007770;}
  margin-top: 10px;
 }
 .foot{
-  margin-top: 100px;
-  font-size: 9px;
+  float: top;
 }
 .foot span{
   padding:5px;
