@@ -20,8 +20,9 @@ a:hover{color:#007770;}
 /*homepage*/
 .home-container{
   width:70%;
-  padding-top:4%;
-  margin-left:2%;
+  border:solid 1px #ccc;
+  border-radius: 1em;
+  margin:300px auto 0 auto;
 }
 .homenav{
  margin-top: 2%;
